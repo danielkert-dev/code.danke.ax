@@ -10,4 +10,4 @@
 
 - git clone https://github.com/danielkert-dev/2024_Datastrukturer_och_algoritmer_inlamning_1 temp_repo
 - mv temp_repo/* temp_repo/.* ~/workspace/2024/Datastruktur_och_Algoritmer/Uppgift_1/
-- 
+- asdfgasgfsad
