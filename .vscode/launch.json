@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/config/workspace/2024/Datastruktur_och_Algoritmer/Uppgift_2/src",
-      "program": "/config/workspace/2024/Datastruktur_och_Algoritmer/Uppgift_2/src/build/Debug/outDebug",
+      "cwd": "/config/workspace/2024/Datastruktur_och_Algoritmer/Uppgift_1",
+      "program": "/config/workspace/2024/Datastruktur_och_Algoritmer/Uppgift_1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
