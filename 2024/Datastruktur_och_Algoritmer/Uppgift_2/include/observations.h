@@ -3,13 +3,13 @@
 
 #include "../include/datatypes.h"
 
-addObservations();
+// addObservations();
 
-deleteObservations();
+// deleteObservations();
 
-listObservations();
+// listObservations();
 
-searchObservations();
+// searchObservations();
 
 void addPredefinedObservations(Observation *observations, int *observationAmount);
 

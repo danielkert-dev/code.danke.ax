@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int getChoice(int max)
 {
@@ -15,7 +16,10 @@ int getChoice(int max)
     return choice;
 }
 
-void clearScreen(void)
-{
-    printf("\e[1;1H\e[2J");
+void clearScreen(void) {
+#ifdef _WIN32
+    system("cls");
+#else
+    system("clear");
+#endif
 }

@@ -27,6 +27,7 @@ int main(void)
         case 2:
             break;
         case 3:
+            clearScreen();
             printObservations(observations, observationAmount);
             break;
         case 4:
