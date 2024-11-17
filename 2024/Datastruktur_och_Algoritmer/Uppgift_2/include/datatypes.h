@@ -25,7 +25,7 @@ typedef struct
 {
     int name;
     int classification;
-    char place[50];
+    char place[100];
     char description[1024];
 } Data;
 

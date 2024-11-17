@@ -4,7 +4,11 @@ CFLAGS = -Wall -Wextra -Iinclude
 
 SRC = $(wildcard src/*.c)
 
-TARGET = bin/program.out
+ifeq ($(OS),Windows_NT)
+    TARGET = bin/program.exe
+else
+    TARGET = bin/program.out
+endif
 
 all: $(TARGET)
 

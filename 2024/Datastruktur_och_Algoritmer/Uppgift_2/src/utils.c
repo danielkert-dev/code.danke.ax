@@ -1,25 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "../include/datatypes.h"
+
+
 int getChoice(int max)
 {
-    printf("Enter choice: ");
     int choice = 0;
 
     do
     {
-        printf("Invalid choice. Please enter a number between 1 and %d: ", max);
-        scanf("%d", &choice);
-        while (getchar() != '\n');
+        printf("Enter choice: ");
+
+        if (scanf("%d", &choice) != 1)
+        {
+            printf("Invalid input. Try again.\n");
+            while (getchar() != '\n');
+        } else {
+            if (choice < 1 || choice > max)
+            {
+                printf("Invalid choice. Try again.\n");
+            }
+        }
+
     } while (choice < 1 || choice > max);
 
     return choice;
 }
 
 void clearScreen(void) {
-#ifdef _WIN32
-    system("cls");
-#else
-    system("clear");
-#endif
+    system("cls"); // Windows
+    system("clear"); // UNIX/Linux
 }
