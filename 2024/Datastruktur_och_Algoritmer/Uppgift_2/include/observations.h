@@ -1,10 +1,7 @@
-// 1. Add observations
+#ifndef OBSERVATIONS_H
+#define OBSERVATIONS_H
 
-// 2. Delete observations
-
-// 3. List all  observations
-
-// 4. Search observations
+#include "../include/datatypes.h"
 
 addObservations();
 
@@ -13,3 +10,7 @@ deleteObservations();
 listObservations();
 
 searchObservations();
+
+void addPredefinedObservations(Observation *observations, int *observationAmount);
+
+#endif // OBSERVATIONS_H

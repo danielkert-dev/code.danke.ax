@@ -1,17 +1,6 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-// Alla Struct
-
-/*
- *
- * datum (dag/månad/år)
- * klockslag (timmar/minuter)
- * plats (en sträng)
- * beskrivning av observationen (en sträng)
- *
- */
-
 typedef struct
 {
     int day;
